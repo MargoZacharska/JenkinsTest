@@ -1,2 +1,5 @@
 #ignore files
 *\bin\*
+*\obj\*
+*\.vs
+*\packages
