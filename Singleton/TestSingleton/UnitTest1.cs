@@ -20,7 +20,7 @@ namespace TestSingleton
         {
             Singleton.Singleton s1 = Singleton.Singleton.getInstance();
             Singleton.Singleton s2 = Singleton.Singleton.getInstance();
-            Assert.AreNotSame(s1, s2);
+            Assert.AreSame(s1, s2);
         }
     }
 }
