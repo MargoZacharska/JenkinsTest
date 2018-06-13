@@ -10,7 +10,6 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
-            // Hello world
         }
     }
 }
